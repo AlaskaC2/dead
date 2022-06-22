@@ -14,99 +14,6 @@ def clear():
 proxys = open('proxies.txt').readlines()
 bots = len(proxys)
 
-def ascii_vro():
-    clear()
-    print(f'''
-\x1b[38;2;255;3;248mLoading \x1b[38;2;113;3;255mResem\x1b[38;2;3;79;255mble Ser\x1b[38;2;3;248;255mvers: \x1b[38;2;79;3;255m[\x1b[38;2;0;255;255m•]
-''')
-    time.sleep(0.5)
-    clear()
-    print(f'''
-\x1b[38;2;255;3;248mLoading \x1b[38;2;113;3;255mResem\x1b[38;2;3;79;255mble Ser\x1b[38;2;3;248;255mvers: \x1b[38;2;79;3;255m[\x1b[38;2;0;255;255m•\x1b[38;2;3;248;255m•\x1b[38;2;79;3;255m]
-''')
-    time.sleep(0.5)
-    clear()
-    print(f'''
-\x1b[38;2;255;3;248mLoading \x1b[38;2;113;3;255mResem\x1b[38;2;3;79;255mble Ser\x1b[38;2;3;248;255mvers: \x1b[38;2;0;0;255m[\x1b[38;2;0;255;255m•\x1b[38;2;3;248;255m•\x1b[38;2;51;255;255m•\x1b[38;2;0;0;255m]
-''')
-    time.sleep(0.5)
-    clear()
-    print(f'''
-\x1b[38;2;255;3;248mLoading \x1b[38;2;113;3;255mResem\x1b[38;2;3;79;255mble Ser\x1b[38;2;3;248;255mvers: \x1b[38;2;79;3;255m[\x1b[38;2;0;255;255m•]
-''')
-    time.sleep(0.5)
-    clear()
-    print(f'''
-\x1b[38;2;255;3;248mLoading \x1b[38;2;113;3;255mResem\x1b[38;2;3;79;255mble Ser\x1b[38;2;3;248;255mvers: \x1b[38;2;79;3;255m[\x1b[38;2;0;255;255m•\x1b[38;2;3;248;255m•\x1b[38;2;79;3;255m]
-''')
-    time.sleep(0.5)
-    clear()
-    print(f'''
-\x1b[38;2;255;3;248mLoading \x1b[38;2;113;3;255mResem\x1b[38;2;3;79;255mble Ser\x1b[38;2;3;248;255mvers: \x1b[38;2;0;0;255m[\x1b[38;2;0;255;255m•\x1b[38;2;3;248;255m•\x1b[38;2;51;255;255m•\x1b[38;2;0;0;255m]
-''')
-    time.sleep(0.5)
-    clear()
-    print(f'''
-\x1b[38;2;255;3;248mLoading \x1b[38;2;113;3;255mResem\x1b[38;2;3;79;255mble Ser\x1b[38;2;3;248;255mvers: \x1b[38;2;79;3;255m[\x1b[38;2;0;255;255m•]
-''')
-    time.sleep(0.5)
-    clear()
-    print(f'''
-\x1b[38;2;255;3;248mLoading \x1b[38;2;113;3;255mResem\x1b[38;2;3;79;255mble Ser\x1b[38;2;3;248;255mvers: \x1b[38;2;79;3;255m[\x1b[38;2;0;255;255m•\x1b[38;2;3;248;255m•\x1b[38;2;79;3;255m]
-''')
-    time.sleep(0.5)
-    clear()
-    print(f'''
-\x1b[38;2;255;3;248mLoading \x1b[38;2;113;3;255mResem\x1b[38;2;3;79;255mble Ser\x1b[38;2;3;248;255mvers: \x1b[38;2;0;0;255m[\x1b[38;2;0;255;255m•\x1b[38;2;3;248;255m•\x1b[38;2;51;255;255m•\x1b[38;2;0;0;255m]
-''')
-    time.sleep(0.5)
-    clear()
-    print(f'''
-\x1b[38;2;255;3;248mLoading \x1b[38;2;113;3;255mResem\x1b[38;2;3;79;255mble Ser\x1b[38;2;3;248;255mvers: \x1b[38;2;79;3;255m[\x1b[38;2;0;255;255m•]
-''')
-    time.sleep(0.5)
-    clear()
-    print(f'''
-\x1b[38;2;255;3;248mLoading \x1b[38;2;113;3;255mResem\x1b[38;2;3;79;255mble Ser\x1b[38;2;3;248;255mvers: \x1b[38;2;79;3;255m[\x1b[38;2;0;255;255m•\x1b[38;2;3;248;255m•\x1b[38;2;79;3;255m]
-''')
-    time.sleep(0.5)
-    clear()
-    print(f'''
-\x1b[38;2;255;3;248mLoading \x1b[38;2;113;3;255mResem\x1b[38;2;3;79;255mble Ser\x1b[38;2;3;248;255mvers: \x1b[38;2;0;0;255m[\x1b[38;2;0;255;255m•\x1b[38;2;3;248;255m•\x1b[38;2;51;255;255m•\x1b[38;2;0;0;255m]
-''')
-    time.sleep(0.5)
-    clear()
-    print(f'''
-\x1b[38;2;255;3;248mLoading \x1b[38;2;113;3;255mResem\x1b[38;2;3;79;255mble Ser\x1b[38;2;3;248;255mvers: \x1b[38;2;79;3;255m[\x1b[38;2;0;255;255m•]
-''')
-    time.sleep(0.5)
-    clear()
-    print(f'''
-\x1b[38;2;255;3;248mLoading \x1b[38;2;113;3;255mResem\x1b[38;2;3;79;255mble Ser\x1b[38;2;3;248;255mvers: \x1b[38;2;79;3;255m[\x1b[38;2;0;255;255m•\x1b[38;2;3;248;255m•\x1b[38;2;79;3;255m]
-''')
-    time.sleep(0.5)
-    clear()
-    print(f'''
-\x1b[38;2;255;3;248mLoading \x1b[38;2;113;3;255mResem\x1b[38;2;3;79;255mble Ser\x1b[38;2;3;248;255mvers: \x1b[38;2;0;0;255m[\x1b[38;2;0;255;255m•\x1b[38;2;3;248;255m•\x1b[38;2;51;255;255m•\x1b[38;2;0;0;255m]
-''')
-    time.sleep(0.5)
-    clear()
-    print(f'''
-\x1b[38;2;255;3;248mLoading \x1b[38;2;113;3;255mResem\x1b[38;2;3;79;255mble Ser\x1b[38;2;3;248;255mvers: \x1b[38;2;79;3;255m[\x1b[38;2;0;255;255m•]
-''')
-    time.sleep(0.5)
-    clear()
-    print(f'''
-\x1b[38;2;255;3;248mLoading \x1b[38;2;113;3;255mResem\x1b[38;2;3;79;255mble Ser\x1b[38;2;3;248;255mvers: \x1b[38;2;79;3;255m[\x1b[38;2;0;255;255m•\x1b[38;2;3;248;255m•\x1b[38;2;79;3;255m]
-''')
-    time.sleep(0.5)
-    clear()
-    print(f'''
-\x1b[38;2;255;3;248mLoading \x1b[38;2;113;3;255mResem\x1b[38;2;3;79;255mble Ser\x1b[38;2;3;248;255mvers: \x1b[38;2;0;0;255m[\x1b[38;2;0;255;255m•\x1b[38;2;3;248;255m•\x1b[38;2;51;255;255m•\x1b[38;2;0;0;255m]
-''')
-    time.sleep(0.5)
-    clear()
-
 
 def si():
     print('         \x1b[38;2;255;0;0m| \x1b[38;2;0;255;255mres\x1b[38;2;153;51;255mem\x1b[38;2;255;51;255mble \x1b[38;2;255;0;0m| \x1b[38;2;255;51;255mNew De\x1b[38;2;153;51;255msing, Enjoy! | INSTAGRAM: [@secure.js]')
@@ -348,7 +255,6 @@ try:
             clear()
             try:
                 clear()
-                ascii_vro()
                 main()
             except KeyboardInterrupt:
                 print ("\n Ctrl-C Has Been Pressed.")
@@ -363,7 +269,6 @@ try:
             clear()
             try:
                 clear()
-                ascii_vro()
                 main()
             except KeyboardInterrupt:
                 print ("\n Ctrl-C Has Been Pressed.")
@@ -378,7 +283,6 @@ try:
             clear()
             try:
                 clear()
-                ascii_vro()
                 main()
             except KeyboardInterrupt:
                 print ("\n Ctrl-C Has Been Pressed.")
