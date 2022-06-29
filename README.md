@@ -1,6 +1,6 @@
 Set-Up/Install
 
-git clone https://github.com/AlaskaC2/Router-Killer
+git clone https://github.com/AlaskaC2/Router-Raper
 
 cd Router-Killer
 
