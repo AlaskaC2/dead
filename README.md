@@ -2,7 +2,7 @@ Set-Up/Install
 
 git clone https://github.com/AlaskaC2/Router-Killer
 
-cd Resemble-C2
+cd Router-Killer
 
 python3 resemble.py
 
