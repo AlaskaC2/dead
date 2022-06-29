@@ -4,7 +4,7 @@ git clone https://github.com/AlaskaC2/Router-Killer
 
 cd Router-Killer
 
-python3 resemble.py
+python3 killer.py
 
 Username - root
 
