@@ -4,7 +4,7 @@ git clone https://github.com/AlaskaC2/Home-Holder
 
 cd Home-Holder
 
-python3 Home-Holder.py
+python3 Holder.py
 
 Username - root
 
