@@ -1,8 +1,8 @@
 Set-Up/Install
 
-git clone https://github.com/AlaskaC2/Home-Holder
+git clone the url
 
-cd Home-Holder
+cd repository name
 
 python3 Holder.py
 
