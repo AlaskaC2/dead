@@ -126,7 +126,7 @@ _\  \\\p__`o-o'__\  \\\p__`o-o'__\  \\\p__`o-o'__\  \\\p__`o-o'_
 
 def si():
 	clear()
-	print(f'         \x1b[38;2;113;3;255m---> ')
+	print(f'         \x1b[38;2;113;3;255m')
 	print("")
 	
 def methods():
@@ -180,7 +180,7 @@ def attack():
 def main():
     menu()
     while(True):
-        cnc = input('''--> ''')
+        cnc = input('''---> ''')
         if cnc == "methods" or cnc == "METHODS" or cnc == "?":
             methods()
         elif cnc == "back" or cnc == "clear" or cnc == "CLEAR" or cnc == "CLS" or cnc == "cls" or cnc == "BACK":
