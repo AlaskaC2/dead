@@ -4,7 +4,7 @@ git clone the url
 
 cd repository name
 
-python3 Holder.py
+python3 python file
 
 Username - root
 
@@ -14,4 +14,4 @@ Type "methods" for methods
 
 Only home methods such as RAIL and LDAP are here
 
-Made by Arctic#3377
+Made by ! UDP-FLOOD#3377
